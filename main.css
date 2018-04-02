@@ -1,0 +1,36 @@
+body {
+	font-family: Roboto;
+	margin: 0;
+}
+
+/* HEADER */
+.movies_header .logo {
+	font-family: Anton;
+	font-size: 30px;
+	text-align: center;
+	border-bottom: 3px solid #292b2c;
+	color: #d9534f;
+	padding: 10px 0;
+	background: #292b2c;
+
+}
+
+.movies_filters {
+	border-bottom: 1px solid #cacaca;
+}
+
+.movies_filters .open {
+	text-align: center;
+	font-size: 17px;
+	font-weight: 300;
+	padding: 10px;
+}
+.movies_filters .open .fa {
+	margin-right: 5px;
+	color: #d9534f;
+	transition: all 0.2s ease;
+}
+
+.movies_filters .open.active .fa {
+	-webkit-transform: rotate(-180deg);
+}

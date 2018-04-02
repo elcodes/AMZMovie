@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AMZMovie.com</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Anton|Roboto:400,500" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="css/main.css">
+
+
+</head>
+<body>
+	<div class="movies_header">
+		<div class="logo">AMZMovie</div>
+		<div class="movies_filters">
+			<div class="filter open">
+					<!--This icon is an arrow that points down -->
+					<span class="fa fa-arrow-circle-o-down"></span>
+					<span class="btn_title">Filter By</span>
+			</div>
+			<!--This gives users the filtering option for movie search -->
+			<div class="filter_container">
+				<label>Category</label>
+				<select id="categories">
+					<option selected value="all">All categories</option>
+				</select>
+
+					<label>Directors</label>
+				<select id="directors">
+					<option selected value="all">All directors</option>
+
+				</select>
+
+			</div>
+
+		</div>
+
+	</div>
+<div class="movies_content">
+	<!-- This creates a section of its own for each movie -->
+	<div class="movie_item">
+	<div class="header">
+  		<!--This is displayed on the left side -->
+    	<div class="left">
+        	<img src="images/1.jpg">
+    	</div>
+    	<!--This is displayed on the right side -->
+
+    	<div class="right">
+    		<h3>Pulp Fiction</h3>
+    		<div class="node">
+    			<span>Year:</span>1985
+    		</div>
+    		<div class="node">
+    			<span>Director:</span>James Who
+    		</div>
+    		<div class="node">
+    			<span>Type:</span>Action
+    		</div>
+    		<div class="show_desc">See description</div>
+
+    	</div>
+	 </div>
+  		<div class="description">
+  			<strong>Description:</strong>
+  			 efficitur quam erat, at venenatis metus vestibulum in. Donec libero tortor, vestibulum sed suscipit sed, tincidunt nec massa. Nunc sit amet quam sollicitudin, faucibus eros vitae, tempus dolor. Phasellus eleifend massa eget tincidunt pellentesque.
+  		</div>
+	</div>
+  
+</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+ 
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
